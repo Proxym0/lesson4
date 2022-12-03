@@ -9,7 +9,6 @@ public class Class2 {
         Random random = new Random();
         int[] array = new int[10];
         int i;
-        int evenNums = 0;
         for (i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10);
         }
